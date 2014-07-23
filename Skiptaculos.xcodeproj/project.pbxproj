@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		972DF779197FE501004493C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DF778197FE501004493C8 /* AppDelegate.swift */; };
+		972DF77B197FE501004493C8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 972DF77A197FE501004493C8 /* GameScene.sks */; };
+		972DF77D197FE501004493C8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DF77C197FE501004493C8 /* GameScene.swift */; };
+		972DF77F197FE501004493C8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DF77E197FE501004493C8 /* GameViewController.swift */; };
+		972DF782197FE501004493C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972DF780197FE501004493C8 /* Main.storyboard */; };
+		972DF784197FE502004493C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972DF783197FE502004493C8 /* Images.xcassets */; };
+		972DF790197FE502004493C8 /* SkiptaculosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DF78F197FE502004493C8 /* SkiptaculosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		972DF78A197FE502004493C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 972DF76B197FE501004493C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972DF772197FE501004493C8;
+			remoteInfo = Skiptaculos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		972DF773197FE501004493C8 /* Skiptaculos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skiptaculos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		972DF777197FE501004493C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972DF778197FE501004493C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		972DF77A197FE501004493C8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		972DF77C197FE501004493C8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		972DF77E197FE501004493C8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		972DF781197FE501004493C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		972DF783197FE502004493C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		972DF789197FE502004493C8 /* SkiptaculosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkiptaculosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		972DF78E197FE502004493C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972DF78F197FE502004493C8 /* SkiptaculosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiptaculosTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		972DF770197FE501004493C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972DF786197FE502004493C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		972DF76A197FE501004493C8 = {
+			isa = PBXGroup;
+			children = (
+				972DF775197FE501004493C8 /* Skiptaculos */,
+				972DF78C197FE502004493C8 /* SkiptaculosTests */,
+				972DF774197FE501004493C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		972DF774197FE501004493C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				972DF773197FE501004493C8 /* Skiptaculos.app */,
+				972DF789197FE502004493C8 /* SkiptaculosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		972DF775197FE501004493C8 /* Skiptaculos */ = {
+			isa = PBXGroup;
+			children = (
+				972DF778197FE501004493C8 /* AppDelegate.swift */,
+				972DF77A197FE501004493C8 /* GameScene.sks */,
+				972DF77C197FE501004493C8 /* GameScene.swift */,
+				972DF77E197FE501004493C8 /* GameViewController.swift */,
+				972DF780197FE501004493C8 /* Main.storyboard */,
+				972DF783197FE502004493C8 /* Images.xcassets */,
+				972DF776197FE501004493C8 /* Supporting Files */,
+			);
+			path = Skiptaculos;
+			sourceTree = "<group>";
+		};
+		972DF776197FE501004493C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				972DF777197FE501004493C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		972DF78C197FE502004493C8 /* SkiptaculosTests */ = {
+			isa = PBXGroup;
+			children = (
+				972DF78F197FE502004493C8 /* SkiptaculosTests.swift */,
+				972DF78D197FE502004493C8 /* Supporting Files */,
+			);
+			path = SkiptaculosTests;
+			sourceTree = "<group>";
+		};
+		972DF78D197FE502004493C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				972DF78E197FE502004493C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		972DF772197FE501004493C8 /* Skiptaculos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972DF793197FE502004493C8 /* Build configuration list for PBXNativeTarget "Skiptaculos" */;
+			buildPhases = (
+				972DF76F197FE501004493C8 /* Sources */,
+				972DF770197FE501004493C8 /* Frameworks */,
+				972DF771197FE501004493C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skiptaculos;
+			productName = Skiptaculos;
+			productReference = 972DF773197FE501004493C8 /* Skiptaculos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		972DF788197FE502004493C8 /* SkiptaculosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972DF796197FE502004493C8 /* Build configuration list for PBXNativeTarget "SkiptaculosTests" */;
+			buildPhases = (
+				972DF785197FE502004493C8 /* Sources */,
+				972DF786197FE502004493C8 /* Frameworks */,
+				972DF787197FE502004493C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972DF78B197FE502004493C8 /* PBXTargetDependency */,
+			);
+			name = SkiptaculosTests;
+			productName = SkiptaculosTests;
+			productReference = 972DF789197FE502004493C8 /* SkiptaculosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		972DF76B197FE501004493C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Oscar Calles";
+				TargetAttributes = {
+					972DF772197FE501004493C8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					972DF788197FE502004493C8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 972DF772197FE501004493C8;
+					};
+				};
+			};
+			buildConfigurationList = 972DF76E197FE501004493C8 /* Build configuration list for PBXProject "Skiptaculos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 972DF76A197FE501004493C8;
+			productRefGroup = 972DF774197FE501004493C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				972DF772197FE501004493C8 /* Skiptaculos */,
+				972DF788197FE502004493C8 /* SkiptaculosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		972DF771197FE501004493C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972DF784197FE502004493C8 /* Images.xcassets in Resources */,
+				972DF77B197FE501004493C8 /* GameScene.sks in Resources */,
+				972DF782197FE501004493C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972DF787197FE502004493C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972DF76F197FE501004493C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972DF77D197FE501004493C8 /* GameScene.swift in Sources */,
+				972DF77F197FE501004493C8 /* GameViewController.swift in Sources */,
+				972DF779197FE501004493C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972DF785197FE502004493C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972DF790197FE502004493C8 /* SkiptaculosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		972DF78B197FE502004493C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972DF772197FE501004493C8 /* Skiptaculos */;
+			targetProxy = 972DF78A197FE502004493C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		972DF780197FE501004493C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972DF781197FE501004493C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		972DF791197FE502004493C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		972DF792197FE502004493C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		972DF794197FE502004493C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Skiptaculos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		972DF795197FE502004493C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Skiptaculos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		972DF797197FE502004493C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Skiptaculos.app/Skiptaculos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SkiptaculosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		972DF798197FE502004493C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Skiptaculos.app/Skiptaculos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SkiptaculosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		972DF76E197FE501004493C8 /* Build configuration list for PBXProject "Skiptaculos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972DF791197FE502004493C8 /* Debug */,
+				972DF792197FE502004493C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972DF793197FE502004493C8 /* Build configuration list for PBXNativeTarget "Skiptaculos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972DF794197FE502004493C8 /* Debug */,
+				972DF795197FE502004493C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		972DF796197FE502004493C8 /* Build configuration list for PBXNativeTarget "SkiptaculosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972DF797197FE502004493C8 /* Debug */,
+				972DF798197FE502004493C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 972DF76B197FE501004493C8 /* Project object */;
+}
