@@ -14,6 +14,9 @@
 		972DF782197FE501004493C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972DF780197FE501004493C8 /* Main.storyboard */; };
 		972DF784197FE502004493C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972DF783197FE502004493C8 /* Images.xcassets */; };
 		972DF790197FE502004493C8 /* SkiptaculosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DF78F197FE502004493C8 /* SkiptaculosTests.swift */; };
+		973782D2198258C400467BD2 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973782D1198258C400467BD2 /* PlayScene.swift */; };
+		975FC63F1988F7F2004C268E /* BlockStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FC63E1988F7F2004C268E /* BlockStatus.swift */; };
+		97A99BD7198016F3004122C1 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A99BD6198016F3004122C1 /* UIColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		972DF789197FE502004493C8 /* SkiptaculosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkiptaculosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		972DF78E197FE502004493C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		972DF78F197FE502004493C8 /* SkiptaculosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiptaculosTests.swift; sourceTree = "<group>"; };
+		973782D1198258C400467BD2 /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		975FC63E1988F7F2004C268E /* BlockStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockStatus.swift; sourceTree = "<group>"; };
+		97A99BD6198016F3004122C1 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 				972DF780197FE501004493C8 /* Main.storyboard */,
 				972DF783197FE502004493C8 /* Images.xcassets */,
 				972DF776197FE501004493C8 /* Supporting Files */,
+				97A99BD6198016F3004122C1 /* UIColorExtensions.swift */,
+				973782D1198258C400467BD2 /* PlayScene.swift */,
+				975FC63E1988F7F2004C268E /* BlockStatus.swift */,
 			);
 			path = Skiptaculos;
 			sourceTree = "<group>";
@@ -216,8 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				972DF77D197FE501004493C8 /* GameScene.swift in Sources */,
+				975FC63F1988F7F2004C268E /* BlockStatus.swift in Sources */,
+				973782D2198258C400467BD2 /* PlayScene.swift in Sources */,
 				972DF77F197FE501004493C8 /* GameViewController.swift in Sources */,
 				972DF779197FE501004493C8 /* AppDelegate.swift in Sources */,
+				97A99BD7198016F3004122C1 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				972DF795197FE502004493C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		972DF796197FE502004493C8 /* Build configuration list for PBXNativeTarget "SkiptaculosTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				972DF798197FE502004493C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
