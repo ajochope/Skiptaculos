@@ -16,7 +16,11 @@ class GameScene: SKScene {
         self.playButton.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))
         self.addChild(self.playButton)
         self.backgroundColor = UIColor(hex: 0x80D9FF)
-        // voy por el minuto 12:07
+        let background = SKSpriteNode(imageNamed: "background_hero.png")
+        background.anchorPoint = CGPoint(x: 0, y: 0)
+        background.size = self.size
+        background.zPosition = -2
+        self.addChild(background)
         
     }
     
@@ -27,6 +31,7 @@ class GameScene: SKScene {
             if self.nodeAtPoint(location) == self.playButton{
                 var scene = PlayScene(size: self.size)
                 let skView = self.view as SKView
+                
                 skView.ignoresSiblingOrder = true
                 scene.scaleMode = .ResizeFill
                 scene.size = skView.bounds.size

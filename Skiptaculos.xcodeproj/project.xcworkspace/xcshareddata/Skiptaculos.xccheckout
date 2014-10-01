@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2594BECA-96E9-47CD-9353-10B84B0FEA81</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Skiptaculos</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0586255B655DB5B7AE6395CDA82636BD9276A163</key>
+		<string>https://github.com/ajochope/Skiptaculos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Skiptaculos.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0586255B655DB5B7AE6395CDA82636BD9276A163</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ajochope/Skiptaculos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0586255B655DB5B7AE6395CDA82636BD9276A163</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0586255B655DB5B7AE6395CDA82636BD9276A163</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Skiptaculos</string>
+		</dict>
+	</array>
+</dict>
+</plist>

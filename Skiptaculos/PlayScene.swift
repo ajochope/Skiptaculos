@@ -15,10 +15,19 @@ class PlayScene: SKScene, SKPhysicsContactDelegate {
     let block2 = SKSpriteNode(imageNamed:"block2")
     let scoreText = SKLabelNode(fontNamed: "Chalkduster")
     
+    
+    let background = SKSpriteNode(imageNamed: "background_hero.png")
+
+    
+    
+    
+    
+    
     let gravity = CGFloat(0.6)
     var origRunningBarPositionX = CGFloat(0)
     var heroBaseLine = CGFloat(0)
     var maxBarX = CGFloat(0)
+    var maxBackgroundX = CGFloat(0)
     var groundSpeed = 5
     var onGround = true
     var velocityY = CGFloat(0)
@@ -34,16 +43,36 @@ class PlayScene: SKScene, SKPhysicsContactDelegate {
     
     
     override func didMoveToView(view: SKView!) {
-        self.backgroundColor = UIColor(hex: 0x80D9FF)
+        //self.backgroundColor = UIColor(hex: 0x80D9FF)
         self.physicsWorld.contactDelegate = self
         self.runningBar.anchorPoint = CGPointMake(0, 0.5)
         self.runningBar.position = CGPointMake(
                                     CGRectGetMinX(self.frame),
                                     CGRectGetMinY(self.frame) + (self.runningBar.size.height / 2))
         
+        
+        //----------------------
+        background.anchorPoint = CGPoint(x: 0, y: -0.15)
+        
+        
+        background.position = CGPointMake(
+            CGRectGetMinX(self.frame),
+            CGRectGetMinY(self.frame))
+        
+        self.addChild(background)
+        // ---------------------------
+        
         self.origRunningBarPositionX = self.runningBar.position.x
         self.maxBarX = self.runningBar.size.width - self.frame.size.width
         self.maxBarX *= -1
+        self.maxBackgroundX = self.background.size.width - self.frame.size.width
+        maxBackgroundX *= -1
+      
+        
+        
+        
+        
+        
         
         self.heroBaseLine = self.runningBar.position.y + (self.runningBar.size.height / 2) + (self.hero.size.height / 2)
         self.hero.position = CGPointMake(CGRectGetMinX(self.frame) + self.hero.size.width + (self.hero.size.width / 4), self.heroBaseLine)
@@ -139,7 +168,9 @@ class PlayScene: SKScene, SKPhysicsContactDelegate {
         if self.runningBar.position.x <= maxBarX {
             self.runningBar.position.x = self.origRunningBarPositionX
         }
-        
+        if background.position.x <= maxBackgroundX {
+            background.position.x = self.origRunningBarPositionX
+        }
         // jump
         self.velocityY += self.gravity
         self.hero.position.y -= velocityY
@@ -157,6 +188,9 @@ class PlayScene: SKScene, SKPhysicsContactDelegate {
         
         // move the ground
         runningBar.position.x -= CGFloat(self.groundSpeed)
+        // -------------
+        // move the background
+        background.position.x -= CGFloat(self.groundSpeed)
         
         blockRunner()
     }
